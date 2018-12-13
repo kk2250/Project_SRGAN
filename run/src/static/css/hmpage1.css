@@ -1,43 +1,66 @@
-body{
-  background: rgba(0,0,0,0.9);
+body {
   font-family: sans-serif;
-  background-color: black;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.logo {
+  margin-top: 90px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  height : 200px;
-  width: 250px;
+  margin-bottom: 20px;
+  height: 220px;
+  width: 330px;
+}
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: rgb(161, 50, 50);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .file-upload {
-  background-color: #ffffff;
-  width: 600px;
+  background-color: rgba(43, 39, 39, 0.9);
+  width: 500px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 8px;
 }
 
 .file-upload-btn {
   width: 100%;
   margin: 0;
-  color: #fff;
-  background: rgb(238, 19, 19);
+  color: rgba(0,0,0,0.9);
+  background: rgb(161, 50, 50);
   border: none;
   padding: 10px;
   border-radius: 4px;
-  border-bottom: 4px solid #15824B;
+  border-bottom: 4px solid rgb(61, 21, 21);
   transition: all .2s ease;
   outline: none;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .file-upload-btn:hover {
-  background: red;
-  color: #ffffff;
+  background: rgb(161, 50, 50);
+  color: rgba(0,0,0,0.9);
   transition: all .2s ease;
   cursor: pointer;
 }
@@ -64,14 +87,14 @@ img {
 }
 
 .image-upload-wrap {
-  margin-top: 20px;
-  border: 4px dashed #1FB264;
+  margin-bottom: 20px;
+  border: 4px dashed rgb(161, 50, 50);
   position: relative;
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-  background-color: #1FB264;
+  background-color: rgb(161, 50, 50);
   border: 4px dashed #ffffff;
 }
 
@@ -87,7 +110,7 @@ img {
 .drag-text h3 {
   font-weight: 100;
   text-transform: uppercase;
-  color: #15824B;
+  color: rgb(161, 50, 50);
   padding: 60px 0;
 }
 

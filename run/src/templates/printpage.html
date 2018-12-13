@@ -8,10 +8,11 @@
 </head>
 <body>
   <img src="https://cdn4.iconfinder.com/data/icons/medical-volume-2-3/48/85-512.png"/>
+  <img src="{{url_for('static', filename='image1.png')}}" alt="image">
+  <img src="{{url_for('static', filename='image1.png')}}" alt="image">
   <div class= "buttons">  
-    <a href="/">
-      <button type="submit">Back</button>
-    </a>
+    <a href="/download" class="button">Download</a>
+    <a href="/" class="button">Back</a>
   </div>
 </body>
 </html>
