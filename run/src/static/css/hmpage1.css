@@ -17,6 +17,30 @@ img {
   height: 220px;
   width: 330px;
 }
+.images {
+  float: left;
+  width: 49%;
+  padding: 6px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image {
+  height: 700px;
+  width: 100%;
+}
+
+.image1 {
+  height: 700px;
+  width: 100%;
+}
+
 .buttons {
   text-align: center;
   padding-top: 30px;
