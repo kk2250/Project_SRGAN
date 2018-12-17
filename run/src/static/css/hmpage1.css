@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .logo {
@@ -61,7 +61,7 @@ img {
 }
 
 .file-upload {
-  background-color: rgba(43, 39, 39, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   width: 500px;
   margin: 0 auto;
   padding: 8px;
@@ -70,7 +70,7 @@ img {
 .file-upload-btn {
   width: 100%;
   margin: 0;
-  color: rgba(0,0,0,0.9);
+  color: rgba(255, 255, 255, 0.9);
   background: rgb(161, 50, 50);
   border: none;
   padding: 10px;
@@ -84,7 +84,7 @@ img {
 
 .file-upload-btn:hover {
   background: rgb(161, 50, 50);
-  color: rgba(0,0,0,0.9);
+  color: rgba(255, 255, 255, 0.9);
   transition: all .2s ease;
   cursor: pointer;
 }
@@ -124,7 +124,7 @@ img {
 
 .image-title-wrap {
   padding: 0 15px 15px 15px;
-  color: #222;
+  color: rgb(255, 255, 255);
 }
 
 .drag-text {
@@ -149,11 +149,11 @@ img {
   width: 200px;
   margin: 0;
   color: #fff;
-  background: #cd4535;
+  background: rgb(161, 50, 50);
   border: none;
   padding: 10px;
   border-radius: 4px;
-  border-bottom: 4px solid #b02818;
+  border-bottom: 4px solid rgb(61, 21, 21);
   transition: all .2s ease;
   outline: none;
   text-transform: uppercase;
@@ -161,7 +161,7 @@ img {
 }
 
 .remove-image:hover {
-  background: #c13b2a;
+  background: rgb(161, 50, 50);
   color: #ffffff;
   transition: all .2s ease;
   cursor: pointer;
