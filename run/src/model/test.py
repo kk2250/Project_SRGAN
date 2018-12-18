@@ -20,7 +20,6 @@ def img_run():
     for k, v in model.named_parameters():
         v.requires_grad = False
     model = model.to(device)
-    # print('Model path {:s}. \nTesting...'.format(model_path))
     for path in glob.glob(test_img_folder):
         base = os.path.splitext(os.path.basename(path))[0]
         img = cv2.imread(path, cv2.IMREAD_COLOR)
@@ -31,6 +30,5 @@ def img_run():
         output = model(img_LR).data.squeeze().float().cpu().clamp_(0, 1).numpy()
         output = np.transpose(output[[2, 1, 0], :, :], (1, 2, 0))
         output = (output * 255.0).round()
-        
         cv2.imwrite('/Users/kkim2250/Desktop/Project_SRGAN/run/src/static/images/{}/image1.png'.format(new_name), output)
         return new_name
